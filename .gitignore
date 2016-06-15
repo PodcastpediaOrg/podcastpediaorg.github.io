@@ -1,3 +1,4 @@
+/.idea
 _site
 .DS_Store
 *.sublime-project
@@ -7,3 +8,4 @@ node_modules
 Gemfile.lock
 .sass-cache
 .jekyll-metadata
+*.iml
