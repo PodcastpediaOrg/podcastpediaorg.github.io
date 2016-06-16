@@ -25,6 +25,9 @@ owner:
   # google plus id, include the '+', eg +mmistakes
   google_plus:
 
+#excerpt
+excerpt_separator: <!--more-->
+
 # Background image to be tiled on all pages
 background: 
 
