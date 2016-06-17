@@ -1,0 +1,97 @@
+#social_logos {margin-top:-15px;}
+.social_logo { float: left; margin-right: 15px; height: 34px; width: 34px;}
+.clear {clear:both;margin:0;padding:0;}
+#author_portrait {box-shadow:0 0 0 rgba(0, 0, 0, 0.2); width:170px;height:170px;}
+#about_author_header {margin-bottom:1px;}
+#about_author {margin-bottom:8px;}
+.amazon_book {float:left; padding:0 10px;}
+
+.header-logo {float:left; margin-top:50px;}
+#title_subtitle {float:left;}
+.clear {clear:both;margin:0;padding:0;}
+.entry-thumbnail img {
+  border-radius: 3px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2)
+}
+.entry-title {font-size:34px;}
+h2 {font-size:25px;margin:20px 0}
+p {margin:0 0 17px}
+.sidebar .entry-header, .sidebar .entry-content, .sidebar .entry-summary, .sidebar .entry-meta {
+  max-width: 1140px;
+  padding: 0 376px 0 60px;
+}
+
+.note_alert {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #CB4848;
+  background-color: #F7E8E8;
+  margin: 10px;
+  padding: 10px;
+  font-style: italic;
+}
+.alert_note:before {
+  font-weight:bold;
+  content:"Note: ";
+}
+.note_normal,.alert_note,.alert_note_no_header {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #f6ce8e;
+  background-color: #f7f5e7;
+  margin: 10px;
+  padding: 10px;
+  font-style: italic;
+}
+.note_code,.alert_code_tip {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #0A2A12;
+  background-color: #A9F5BC;
+  margin: 10px;
+  padding: 10px;
+  font-style: italic;
+}
+
+.alert_code_tip:before {
+  content:"Code tip: ";
+  font-weight:bold;
+}
+.amazon_books {margin-top:25px;}
+#social_logos_small p {margin: 5px 0; padding: 0}
+#social_logos_small {margin-bottom:20px;}
+.social_logo_small { float: left; margin-right: 8px; height: 21px; width: 21px;}
+
+#social_logos {
+  float: left;
+  margin-bottom: 5px;
+  padding-top: 21px;
+}
+#social_logos a {
+  color: #053855;
+  font-size: 1.5em;
+
+  text-decoration: none;
+}
+#social_logos a:first-child {
+  margin-left: 3px;
+}
+#social_logos a:HOVER, #social_logos_up a:HOVER  {
+  color: #A73030;
+}
+#social_logos_up a {
+  color: #053855;
+  font-size: 1.2em;
+  text-decoration: none;
+}
+
+/* end article donation css*/
+#end-donate {
+  border-top: 1px dashed;
+  border-bottom: 1px dashed;
+  padding:8px;
+}
+#end-donate-text {
+  float:left;
+  width:60%;
+}
