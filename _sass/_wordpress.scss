@@ -6,20 +6,6 @@
 #about_author {margin-bottom:8px;}
 .amazon_book {float:left; padding:0 10px;}
 
-.header-logo {float:left; margin-top:50px;}
-#title_subtitle {float:left;}
-.clear {clear:both;margin:0;padding:0;}
-.entry-thumbnail img {
-  border-radius: 3px;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2)
-}
-.entry-title {font-size:34px;}
-h2 {font-size:25px;margin:20px 0}
-p {margin:0 0 17px}
-.sidebar .entry-header, .sidebar .entry-content, .sidebar .entry-summary, .sidebar .entry-meta {
-  max-width: 1140px;
-  padding: 0 376px 0 60px;
-}
 
 .note_alert {
   border-style: solid;
@@ -52,7 +38,6 @@ p {margin:0 0 17px}
   padding: 10px;
   font-style: italic;
 }
-
 .alert_code_tip:before {
   content:"Code tip: ";
   font-weight:bold;
@@ -61,6 +46,74 @@ p {margin:0 0 17px}
 #social_logos_small p {margin: 5px 0; padding: 0}
 #social_logos_small {margin-bottom:20px;}
 .social_logo_small { float: left; margin-right: 8px; height: 21px; width: 21px;}
+table {
+  border-spacing: 0.5rem;
+  border-collapse: collapse;
+}
+td, th {
+  border: 1px solid #999;
+  padding: 0.5rem;
+  text-align: left;
+}
+tbody tr:hover {
+  background: #D8D8D8;
+}
+thead {
+  background: #A4A4A4;
+}
+@media (max-width: 720px) {
+  .header-logo {height:100px; width:460px;}
+}
+@media (max-width: 500px) {
+  .header-logo {height:80px; width:368px;}
+}
+.site-title {
+  display:none;
+}
+@font-face {
+  font-family: 'icomoon';
+  src:url('icomoon/icomoon.eot?un6050');
+  src:url('icomoon/icomoon.eot?#iefixun6050') format('embedded-opentype'),
+  url('icomoon/icomoon.woff?un6050') format('woff'),
+  url('icomoon/icomoon.ttf?un6050') format('truetype'),
+  url('icomoon/icomoon.svg?un6050#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-googleplus:before {
+  content: "\e61b";
+}
+
+.icon-facebook:before {
+  content: "\e61d";
+}
+.icon-twitter:before {
+  content: "\e61f";
+}
+.icon-linkedin:before {
+  content: "\e628";
+}
+.icon-github:before {
+  content: "\e621";
+}
+.icon-earth:before {
+  content: "\e60e";
+}
 
 #social_logos {
   float: left;
@@ -95,3 +148,4 @@ p {margin:0 0 17px}
   float:left;
   width:60%;
 }
+
